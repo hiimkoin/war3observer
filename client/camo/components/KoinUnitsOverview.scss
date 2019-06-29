@@ -1,0 +1,107 @@
+.units-container {
+  display: grid;
+  grid-template-columns: 40px;
+  grid-template-rows: 40px 20px;
+  grid-template-areas: "." "count";
+}
+
+.units {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px 40px 40px;
+  grid-template-rows: 60px 60px;
+  grid-template-areas: ". . . . . . ." ". . . . . . .";
+}
+
+.all-units {
+  display: flex;
+  justify-content: space-between;
+  justify-items: start;
+  margin-left: 219px;
+  margin-right: 219px;
+  margin-top: -60px;
+}
+
+.units-container img {
+  width: 40px;
+  height: 40px;
+}
+
+.count {
+  grid-area: count;
+  display: inline-grid;
+  place-items: center;
+  font-size: 12px;
+  border: 1px outset grey;
+}
+
+// TODO: gods of css, please help
+
+.reversed:nth-child(1) {
+  grid-column: 7;
+  grid-row: 1;
+}
+
+.reversed:nth-child(2) {
+  grid-column: 6;
+  grid-row: 1;
+}
+
+.reversed:nth-child(3) {
+  grid-column: 5;
+  grid-row: 1;
+}
+
+.reversed:nth-child(4) {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.reversed:nth-child(5) {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.reversed:nth-child(6) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.reversed:nth-child(7) {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.reversed:nth-child(8) {
+  grid-column: 7;
+  grid-row: 2;
+}
+
+.reversed:nth-child(9) {
+  grid-column: 6;
+  grid-row: 2;
+}
+
+.reversed:nth-child(10) {
+  grid-column: 5;
+  grid-row: 2;
+}
+
+.reversed:nth-child(11) {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.reversed:nth-child(12) {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.reversed:nth-child(13) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.reversed:nth-child(14) {
+  grid-column: 1;
+  grid-row: 2;
+}

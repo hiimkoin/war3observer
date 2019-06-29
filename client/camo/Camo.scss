@@ -76,3 +76,18 @@ $widescreen-decoration-size:   240px !default;
 @import "./components/CamoResourcesOverview";
 @import "./components/CamoHeroesOverview";
 @import "./components/CamoTeamsOverview.scss";
+
+@import "./components/KoinResourcesOverview.scss";
+@import "./components/KoinUnitsOverview.scss";
+@import "./components/KoinResearchOverview.scss";
+@import "./components/KoinBuildingsOverview.scss";
+@import "./components/KoinGametime.scss";
+
+.HeroesOverview {
+  top: -60px;
+}
+
+//TODO: remove on release
+// body {
+//   background-image: url('./assets/bghero.png');
+// }

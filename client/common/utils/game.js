@@ -8,6 +8,24 @@ export function getPlayers() {
     : app.game.players.slice().reverse();
 }
 
+export function getGameTime() {
+  if (app.game) {
+    let ms = app.game.game.game_time;
+    let seconds = Math.round(ms / 1000);
+    
+    // let h = Math.floor(seconds / 3600);
+    let m = Math.floor(seconds % 3600 / 60);
+    let s = Math.floor(seconds % 3600 % 60);
+
+    // let hd = h < 10 ? '0' + h : h; 
+    let md = m < 10 ? '0' + m : m;
+    let sd = s < 10 ? '0' + s : s;
+
+    // return `${hd}:${md}:${sd}`;
+    return `${md}:${sd}`
+  }
+}
+
 export function getTeams() {
   return getPlayers().reduce(splitTeams, {});
 }

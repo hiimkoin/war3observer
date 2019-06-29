@@ -44,6 +44,7 @@ $font-size-base:     16px !default;
 $line-height-base:   1.5 !default;
 $body-color:         #fff !default;
 $body-bg:            #222 !default;
+// $body-bg:             transparent !default;
 
 @function yiq($color) {
   $r: red($color);

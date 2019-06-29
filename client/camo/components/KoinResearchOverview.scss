@@ -1,0 +1,129 @@
+.research {
+  display: grid;
+  grid-template-columns: 40px 40px 40px;
+  grid-template-rows: 60px 60px 60px 60px;
+  grid-template-areas: ". . ." ". . ." ". . ." ". . .";
+}
+
+.inprogress {
+  display: grid;
+  grid-template-columns: 40px 40px 40px;
+  grid-template-rows: 60px 60px;
+  grid-template-areas: ". . ." ". . .";
+}
+
+.researched-container {
+  display: grid;
+  grid-template-columns: 40px;
+  grid-template-rows: 40px 20px;
+  grid-template-areas: "." "count";
+}
+
+.researched-container .icon {
+  width: 40px;
+  height: 40px;
+}
+
+.ResearchOverview {
+  margin-top: 220px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.researching,
+.finished {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+// TODO: gods of css, please help here also
+.reverse-research:nth-child(1) {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.reverse-research:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.reverse-research:nth-child(3) {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.reverse-research:nth-child(4) {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.reverse-research:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.reverse-research:nth-child(6) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.reverse-research:nth-child(7) {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.reverse-research:nth-child(8) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.reverse-research:nth-child(9) {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.reverse-research:nth-child(10) {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.reverse-research:nth-child(11) {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.reverse-research:nth-child(12) {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.reverse-rip:nth-child(1) {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.reverse-rip:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.reverse-rip:nth-child(3) {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.reverse-rip:nth-child(4) {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.reverse-rip:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.reverse-rip:nth-child(6) {
+  grid-column: 1;
+  grid-row: 2;
+}

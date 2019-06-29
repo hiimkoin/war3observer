@@ -39,7 +39,7 @@ export default class App extends Component {
 
   onmessage(event) {
     const data = JSON.parse(event.data);
-
+    
     switch (data.type) {
       case 'state':
         this.game = data.content;
